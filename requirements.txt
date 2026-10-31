@@ -1,0 +1,26 @@
+
+# API et serveur
+fastapi
+uvicorn[standard]
+
+# Interface utilisateur
+streamlit
+
+# Lecture des PDF
+pymupdf
+
+# Embeddings et base vectorielle
+qdrant-client[fastembed]
+
+# API Mistral
+mistralai
+
+# Configuration
+python-dotenv
+pydantic-settings
+python-multipart
+
+# Tests et qualité du code
+pytest
+httpx
+ruff

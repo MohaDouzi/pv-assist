@@ -1,0 +1,125 @@
+{
+  "manual": "tests/fixtures/pv_maintenance_smoke.pdf",
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What information should be recorded before troubleshooting an inverter?",
+      "expected_source_pages": [1],
+      "expected_abstention": false,
+      "safety_sensitive": false,
+      "expected_evidence": "Record the inverter model and displayed alarm code."
+    },
+    {
+      "id": "Q02",
+      "question": "Who may inspect an inverter enclosure?",
+      "expected_source_pages": [1],
+      "expected_abstention": false,
+      "safety_sensitive": true,
+      "expected_evidence": "Only qualified personnel may inspect an enclosure."
+    },
+    {
+      "id": "Q03",
+      "question": "What does the manual require before accessing an inverter enclosure?",
+      "expected_source_pages": [1],
+      "expected_abstention": false,
+      "safety_sensitive": true,
+      "expected_evidence": "Isolate all required sources and verify the safe state before access."
+    },
+    {
+      "id": "Q04",
+      "question": "Does the manual permit work on exposed energized conductors?",
+      "expected_source_pages": [1],
+      "expected_abstention": false,
+      "safety_sensitive": true,
+      "expected_evidence": "Never work on exposed energized conductors."
+    },
+    {
+      "id": "Q05",
+      "question": "What exact lockout/tagout sequence and voltage-test limits are required for inverter isolation?",
+      "expected_source_pages": [],
+      "expected_abstention": true,
+      "safety_sensitive": true,
+      "expected_evidence": "The manual refers to site procedures but does not state a detailed sequence or voltage-test limits."
+    },
+    {
+      "id": "Q06",
+      "question": "When should photovoltaic modules be cleaned?",
+      "expected_source_pages": [2],
+      "expected_abstention": false,
+      "safety_sensitive": false,
+      "expected_evidence": "Plan cleaning for cool modules."
+    },
+    {
+      "id": "Q07",
+      "question": "What cleaning tools and fluid does the manual describe?",
+      "expected_source_pages": [2],
+      "expected_abstention": false,
+      "safety_sensitive": false,
+      "expected_evidence": "Clean water and a soft, non-abrasive brush or cloth."
+    },
+    {
+      "id": "Q08",
+      "question": "Which cleaning methods are prohibited by the manual?",
+      "expected_source_pages": [2],
+      "expected_abstention": false,
+      "safety_sensitive": true,
+      "expected_evidence": "Do not use abrasive cleaners or high-pressure jets."
+    },
+    {
+      "id": "Q09",
+      "question": "What should a technician do if module cables or glass appear damaged?",
+      "expected_source_pages": [2],
+      "expected_abstention": false,
+      "safety_sensitive": true,
+      "expected_evidence": "Stop and report defects to the site supervisor."
+    },
+    {
+      "id": "Q10",
+      "question": "Which detergent brand and dilution ratio does the manufacturer approve?",
+      "expected_source_pages": [],
+      "expected_abstention": true,
+      "safety_sensitive": false,
+      "expected_evidence": "No brand or dilution ratio is provided."
+    },
+    {
+      "id": "Q11",
+      "question": "What instrument is used during the thermal anomaly survey, and from where?",
+      "expected_source_pages": [3],
+      "expected_abstention": false,
+      "safety_sensitive": true,
+      "expected_evidence": "Use a suitable infrared camera from a safe, approved position."
+    },
+    {
+      "id": "Q12",
+      "question": "Which conditions should be recorded during the thermal survey?",
+      "expected_source_pages": [3],
+      "expected_abstention": false,
+      "safety_sensitive": false,
+      "expected_evidence": "Inspection time, weather, irradiance, and operating conditions."
+    },
+    {
+      "id": "Q13",
+      "question": "How should suspect modules be compared during the survey?",
+      "expected_source_pages": [3],
+      "expected_abstention": false,
+      "safety_sensitive": false,
+      "expected_evidence": "Compare nearby modules under similar conditions."
+    },
+    {
+      "id": "Q14",
+      "question": "What maximum temperature difference between neighboring modules is allowed?",
+      "expected_source_pages": [],
+      "expected_abstention": true,
+      "safety_sensitive": true,
+      "expected_evidence": "The manual gives no numeric temperature-difference limit."
+    },
+    {
+      "id": "Q15",
+      "question": "Which PPE class, arc-flash boundary, and regulatory standard are required for the thermal survey?",
+      "expected_source_pages": [],
+      "expected_abstention": true,
+      "safety_sensitive": true,
+      "expected_evidence": "The manual does not specify PPE classes, boundaries, or standards."
+    }
+  ]
+}
